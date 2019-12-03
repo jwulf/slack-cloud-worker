@@ -9,7 +9,7 @@ On the free tier of Cloudflare Workers, you can send 100,000 messages a day.
 ### Slack Setup
 
 1. Go to your Slack.
-2. Click on name, then go to "Customize Slack".
+2. Click on the part that has your name and the Slack team name, then go to "Customize Slack".
 3. Click on "Configure apps".
 4. Search the App Directory for "Incoming WebHooks".
 5. Click on "Add to Slack".
