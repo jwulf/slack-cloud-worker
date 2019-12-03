@@ -18,8 +18,8 @@ On the free tier of Cloudflare Workers, you can send 100,000 messages a day.
 
 ### Cloudflare Setup
 
-1. Sign up for a Cloudflare Workers account.
-2. Clone this repo, then cd into the checked out directory and run `npm i`.
+1. Sign up for a [Cloudflare Workers account](https://dash.cloudflare.com/).
+2. Clone [this repo](https://github.com/jwulf/slack-cloud-worker), then cd into the checked out directory and run `npm i`.
 3. Install `wrangler`, the Cloudflare Worker CLI:
 
 ```bash
@@ -36,7 +36,7 @@ npm i -g wrangler
 
 ### Camunda Cloud Setup
 
-1. Log in to your Camunda Cloud account.
+1. Log in to your [Camunda Cloud](https://console.cloud.camunda.io/) account.
 2. Go to the configuration screen for your cluster.
 3. Click on "Worker Variables" next to the HTTP-Worker.
 4. Create a new variable `slackWorkerUrl` and paste in your Cloudflare Worker url.
