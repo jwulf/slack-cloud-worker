@@ -26,7 +26,7 @@ On the free tier of Cloudflare Workers, you can send 100,000 messages a day.
 npm i -g wrangler
 ```
 
-4. Grab your Account ID from your Cloudflare dashboard (click on Workers on the right). Put it into `wrangler.toml` in the `account_id` field.
+4. Grab your Account ID from your [Cloudflare dashboard](https://dash.cloudflare.com/) (click on Workers on the right). Put the Account ID into `wrangler.toml` in the `account_id` field.
 5. Create a new API key in your Cloudflare account. Click on "Get your API token" under your Account ID, and create a new token with Permissions: Account > Workers Scripts > Edit.
 6. Copy the API key.
 7. Run `wrangler config`.
